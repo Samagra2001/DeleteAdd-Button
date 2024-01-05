@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .border {
+            border: 2px solid red
+        }
+
+        .container {
+            height: 100vh;
+            width: 100vw;
+        }
+
+        .back {
+            height: 100vh;
+            width: 100vw;
+            background-image: url(./Images/1.avif);
+            background-repeat: fixed;
+
+        }
+
+        .task {
+            border: 2px solid black;
+            margin-left: 35%;
+            width: 27%;
+            margin-top: 1%;
+        }
+
+        .bckgclr {
+            background-color: red;
+        }
+
+        .main {
+            height: 14vh;
+            width: 60%;
+            margin-left: 23%;
+        }
+
+        .taskcontainer {
+            margin-top: 2%;
+            font-size: x-large;
+
+        }
+        .abc{
+            margin-top: 2%;
+        }
+        .border1{
+            border: 2px solid white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container back border1">
+        <div class=" abc">
+            <div class="main ">
+                <input type="text" value="" placeholder="Name" class="input1" style="width: 17vw; height: 5vh;">
+                <input type="text" value="" placeholder="Surname" class="input2" style="width: 17vw; height: 5vh;">
+                <input type="number" value="" placeholder="Age" class="input3" style="width: 17vw; height: 5vh;">
+                <br>
+                <button class="add"
+                    style="margin-left: 20%; margin-top: 4%; border-radius: 70%; width: 17%;  height: 6vh; font-family: cursive; font-size: large;">Add</button>
+                <button
+                    style="margin-left: 10%; border-radius: 70%;width: 17%; height: 6vh; font-family: cursive; font-size: large;"
+                    class="Delete">Delete</button>
+            </div>
+            <div class="taskcontainer ">
+                <!-- <div class="task"> -->
+                <!-- <p>Text of the task</p> -->
+
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+
+</html>
